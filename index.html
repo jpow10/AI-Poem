@@ -14,6 +14,7 @@
     <main>
       <h2>A poem a day keeps the blues away...</h2>
       <h3>Go on, let us craft you a poem</h3>
+      <div class="form-container">
       <form id="poem-form">
         <input
           type="text"
@@ -26,12 +27,14 @@
         />
         <input type="submit" class="submit-button" />
       </form>
-      <div class="poem" id="poem"></div>
+      <div class="prompt">i.e. Rose, Horse or Pizza</div>
+      </div>
+      <div class="poem hidden" id="poem"></div>
       </div>
     </main>
     <footer>
-      This AI project was coded by Julia Powney and is open-sourced on
-      <a href="https://github.com/jpow10/AI-Poem" target="_blank">Github</a>
+      This AI project was coded by Julia Powney, is open-sourced on
+      <a href="https://github.com/jpow10/AI-Poem" target="_blank">Github</a> and hosted on <a href="https://app.netlify.com/teams/jpow10/overview" target="_blank">Netlify</a>
     </footer>
     <script src="src/index.js"></script>
   </body>
